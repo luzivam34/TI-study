@@ -34,43 +34,89 @@
 
     <main>
         <!-- Início da Tag main, para acomodar o conteúdo principal -->
-        <section>
-            <!--Início da tag section dividindo a main  em seções -->
+        <div id="main-menu">
+            <ul>
+                <li><button type="button" data-modulo="modulo1">Modulo 1</button></li>
+                <li><button type="button" data-modulo="modulo2">Modulo 2</button></li>
+            </ul>
+        </div>
 
-            <h2>ChatGPT</h2>
-            <p>Aprendendo ChatGPT</p>
-            <div>
-                <h3>Modulo 1 - O que é o ChatGPT </h3>
-                <p>
-                    O ChatGPT é um assistente de inteligência artificial baseado em modelos de linguagem <strong>
-                        (LLMs - Large Language Models).</strong>
-                </p>
-                <p>
-                    Ele foi treinado com uma enorme quantidade de textos para aprender padrões da linguagem humana.
-                </p>
-                <p>
-                    Ele consegue:
-                </p>
-                <ul>
-                    <li>Explicar assuntos</li>
-                    <li>Programar</li>
-                    <li>Corrigir códigos</li>
-                    <li>Escrever textos</li>
-                    <li>Resumir livros</li>
-                    <li>Criar imagens</li>
-                    <li>Analisar documentos</li>
-                    <li>Criar tabelas</li>
-                    <li>Gerar ideias</li>
-                    <li>Traduzir idiomas</li>
-                    <li>Ajudar em estudos</li>
-                </ul>
+        <div id="display-modulo">
 
-                <p>
-                    Mas ele não "pensa" como uma pessoa. Ele gera respostas com base nos padrões que aprendeu e, quando
-                    necessário, pode consultar informações atuais da internet ou usar outras ferramentas disponíveis.
-                </p>
-            </div>
-        </section>
+            <section id="modulo1" class="modulo">
+                <!--Início da tag section dividindo a main  em seções -->
+                <h2>ChatGPT</h2>
+                <p>Aprendendo ChatGPT</p>
+                <div>
+                    <h3>Modulo 1 - O que é o ChatGPT </h3>
+                    <p>
+                        O ChatGPT é um assistente de inteligência artificial baseado em modelos de linguagem <strong>
+                            (LLMs - Large Language Models).</strong>
+                    </p>
+                    <p>
+                        Ele foi treinado com uma enorme quantidade de textos para aprender padrões da linguagem humana.
+                    </p>
+                    <p>
+                        Ele consegue:
+                    </p>
+                    <ul>
+                        <li>Explicar assuntos</li>
+                        <li>Programar</li>
+                        <li>Corrigir códigos</li>
+                        <li>Escrever textos</li>
+                        <li>Resumir livros</li>
+                        <li>Criar imagens</li>
+                        <li>Analisar documentos</li>
+                        <li>Criar tabelas</li>
+                        <li>Gerar ideias</li>
+                        <li>Traduzir idiomas</li>
+                        <li>Ajudar em estudos</li>
+                    </ul>
+
+                    <p>
+                        Mas ele não "pensa" como uma pessoa. Ele gera respostas com base nos padrões que aprendeu e,
+                        quando
+                        necessário, pode consultar informações atuais da internet ou usar outras ferramentas
+                        disponíveis.
+                    </p>
+                </div>
+            </section>
+
+            <section id="modulo2" class="modulo" hidden>
+                <h2>ChatGPT</h2>
+                <p>Aprendendo ChatGPT</p>
+                <div>
+
+                    <h3>
+                        Módulo 2 – Pense nele como um funcionário
+                    </h3>
+                    <p>
+                        Imagine que você contratou um funcionário extremamente inteligente.
+                        Se você disser:
+                        Faça um sistema.
+                        Ele ficará perdido.
+                    </p>
+                    <p>
+                        Agora observe:
+                    </p>
+                    <ol>
+                        <li>Você é um desenvolvedor Full Stack especialista em Flask.</li>
+                        <li>Quero criar um sistema de estoque.</li>
+                        <li>Banco PostgreSQL.</li>
+                        <li>Backend Flask.</li>
+                        <li>Frontend React.</li>
+                        <li>Explique passo a passo.</li>
+                        <li>Aguarde minha confirmação antes de seguir.</li>
+                    </ol>
+
+                    <p>
+                        A qualidade da resposta normalmente melhora porque você definiu o contexto e o objetivo.
+                    </p>
+
+                </div>
+            </section>
+
+        </div>
 
     </main>
     <footer>
@@ -78,6 +124,7 @@
 
         <p>&copy; TI Study 2026</p>
     </footer>
+    <script src="src/js/script.js"></script>
 </body>
 
 </html>

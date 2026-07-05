@@ -8,8 +8,14 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-size: 1.6rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
 p {
-    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 header {
@@ -28,9 +34,34 @@ header nav ul {
     list-style-type: none;
 }
 
+header nav a {
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
 main {
     margin: 0 auto;
     padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#main-menu {
+    border: 0.1rem solid;
+    margin: 0.5rem;
+    width: 20%;
+}
+
+#main-menu ul {
+    padding: 0.9rem 1.8rem;
+    list-style-type: none;
+}
+
+#main-menu button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
 }
 
 h2 {
@@ -47,8 +78,26 @@ h3 {
     padding: 0.3rem;
 }
 
-ul {
-    margin: 1.2rem;
+#display-modulo {
+    display: block;
+    justify-content: center;
+}
+
+.modulo {
+    border: 0.1rem solid;
+    width: 80%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+#modulo1 ul {
+    margin: 1.8rem;
+    padding: 0.3rem;
+    font-size: 1.4rem;
+}
+
+#modulo2 ol {
+    margin: 1.8rem;
     padding: 0.3rem;
     font-size: 1.4rem;
 }
