@@ -48,7 +48,6 @@ main {
 }
 
 #main-menu {
-    border: 0.1rem solid;
     margin: 0.5rem;
     width: 12rem;
     flex-shrink: 0;
@@ -68,7 +67,7 @@ main {
 }
 
 #main-menu button.ativo {
-    background-color: #222;
+    background-color: teal;
     color: white;
 }
 
@@ -92,7 +91,6 @@ h3 {
 }
 
 .modulo {
-    border: 0.1rem solid;
     width: 100%;
     margin: 0.5rem;
     padding: 0.5rem;
@@ -109,6 +107,12 @@ h3 {
     padding: 0.3rem;
     font-size: 1.4rem;
 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
 }
 
 table,
