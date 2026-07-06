@@ -12,10 +12,11 @@ botoesModulo.forEach(function (botao) {
     botao.addEventListener("click", function () {
         trocarModulo(botao.dataset.modulo);
 
-        botoesModulo.forEach(function (outroBotão) {
-            outroBotão.classList.remove("ativo");
+        botoesModulo.forEach(function (outroBotao) {
+            outroBotao.classList.remove("ativo");
 
         });
+
         botao.classList.add("ativo");
     });
 });

@@ -4,6 +4,10 @@
     }
 
     #main-menu,
+    #display-modulo {
+        width: 100%;
+    }
+
     .modulo {
         width: auto;
     }
