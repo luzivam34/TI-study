@@ -64,6 +64,11 @@ main {
     cursor: pointer;
 }
 
+#main-menu button.ativo {
+    background-color: #222;
+    color: white;
+}
+
 h2 {
     border-top-left-radius: 0.8rem;
     border-top-right-radius: 0.8rem;
@@ -90,13 +95,13 @@ h3 {
     padding: 0.5rem;
 }
 
-#modulo1 ul {
+.modulo ul {
     margin: 1.8rem;
     padding: 0.3rem;
     font-size: 1.4rem;
 }
 
-#modulo2 ol {
+.modulo ol {
     margin: 1.8rem;
     padding: 0.3rem;
     font-size: 1.4rem;
